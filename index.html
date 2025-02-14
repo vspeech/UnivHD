@@ -196,14 +196,14 @@
           </h2>
           <p style="text-align: justify;">
             <font color="061E61">
-              With the emergence of the generative adversarial network (GAN), neural vocoders have been made significant advancements in high-quality speech generating and inference speed. 
-              Since the discriminator is a crucial component in GAN-based vocoders, most existing discriminators with time or time-frequency representations are developed recently. 
-              In our work, we focus on improving the time-frequency based discriminator in vocoders. In particular, Short-Time Fourier Transform (STFT) representation is usually used as 
-              input of time-frequency based discriminator. However, the STFT-based spectrogram has the same frequency resolution at different frequency bands, 
-              which results in an inferior performance, especially for singing voices generation. Motivated by this, we propose a universal harmonic discriminator for dynamic frequency 
-              resolution modeling and harmonic tracking. Specifically, we design a harmonic filter with learnable triangular band-pass filter banks, where each frequency bin has a flexible 
-              frequency bandwidth. In addition, we also add a half-harmonic to learn the energy at low frequency band, which contributes to capture the fine-grained harmonic relationships. 
-              Through rigorous experiments on speech and singing datasets, we demonstrate that the proposed harmonic discriminator significantly improves the performance of GAN-based vocoders on both subjective and objective metrics.         
+              With the emergence of GAN-based vocoders, the discriminator, as a crucial component, has been developed recently. In our work, 
+              we focus on improving the time-frequency based discriminator. Particularly, Short-Time Fourier Transform representation is usually 
+              used as input of time-frequency based discriminator. However, the STFT spectrogram has the same frequency resolution at different 
+              frequency bins, which results in an inferior performance, especially for singing voices. Motivated by this, we propose a universal harmonic 
+              discriminator for dynamic frequency resolution modeling and harmonic tracking. Specifically, we design a harmonic filter with learnable 
+              triangular band-pass filter banks, where each frequency bin has a flexible bandwidth. Additionally, we add a half-harmonic to capture 
+              fine-grained harmonic relationships at low-frequency band. Experiments on speech 
+              and singing datasets validate the effectiveness of the proposed discriminator on both subjective and objective metrics.         
             </font>
           </p>
 
